@@ -1,16 +1,34 @@
-# crypto_base
+ # CryptoWatch - Flutter Application
+ Cryptowatch is an android  application that fetches latest details about the cryptocurrency market from coingecko API. The application displays the most viewd crypto coins in the market.
+ 
+ I created this repository for a few reasons:
+ 1. To learn the approch of implementing clean architecture and [SOLID principles](https://en.wikipedia.org/wiki/SOLID#:~:text=The%20SOLID%20concepts%20are%3A,%2C%20but%20closed%20for%20modification.%22) in an android app.
+ 2. To learn libraries/tools supported by Google and most of the android development communities.
+ 3. To experiment and interact with API request.
+ 4. Demonstrate best developement practices by utilizing up to date tech-stack .
 
-A new Flutter project.
+ ## Table of Contents
 
-## Getting Started
+- [Prerequisite](#prerequisite)
+- [Plugins](#plugins)
+- [Related Posts](#related-posts)
+- [Screenshots](#screenshots)
 
-This project is a starting point for a Flutter application.
+## Prerequisite.
+- In order to run the application, you need to [clone]("link_to_clone)/[fork]("link_to_fork) the [Cryptowatch Project]("https://github.com/MartinMugambi/cryptowatch").
 
-A few resources to get you started if this is your first Flutter project:
+- Download the [Flutter Programming Language SDK]("https://flutter.dev/?gclsrc=ds&gclsrc=ds) in your computer.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Download VS code or Android studio code editor and intregrate the flutter sdk with the code editor
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Plugins.
+
+ 1. http: ^0.13.3 - This package contains a set of high-level functions and classes that make it easy to consume HTTP resources. It's multi-platform, and supports mobile, desktop, and the browser.
+ 
+ 2. get_it: This is a simple Service Locator for Dart and Flutter projects with some additional goodies highly inspired by Splat. It can be used instead of InheritedWidget or Provider to access objects e.g. from your UI.
+ 
+ ## Related Posts.
+ 
+ ## Screenshots.
+
+<img src="image/poster_2.png" width="700"/>  
